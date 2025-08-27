@@ -9,7 +9,7 @@ This project demonstrates an **SMS Request Flooder** using **Python** and **Burp
 - Captures and analyzes OTP request endpoints using **Burp Suite**  
 - Replays OTP requests via a Python script using the **requests** library  
 - Alternates between multiple endpoints to bypass rate limiting  
-- Custom headers, payloads, and cookies to replicate real browser behavior  
+- Custom headers, payloads, and cookies to replicate real browser behaviour  
 - Input validation & loop control for efficient execution  
 - Logs responses with status codes for debugging  
 
@@ -26,8 +26,8 @@ This project demonstrates an **SMS Request Flooder** using **Python** and **Burp
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-   cd YOUR_REPOSITORY
+   git clone https://github.com/Lightsaber2/otp-request-generator.git
+   cd otp-request-generator
    ```
 
 2. Install dependencies:
