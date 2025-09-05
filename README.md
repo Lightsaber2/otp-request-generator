@@ -17,7 +17,7 @@ This project demonstrates an **SMS Request Flooder** using **Python** and **Burp
 
 ## Tools & Technology
 - **Python 3**
-- **Burp Suite (Community Edition is enough)**
+- **Burp Suite (Community Edition is enough to capture the packets, but you can go with the paid edition if you can)**
 - **Requests library**
 
 ---
@@ -53,7 +53,7 @@ Below is a sample output of the script execution:
 ## Methodology
 1. Intercepted OTP request packets using **Burp Suite**.  
 2. Identified exploitable parameters (number, headers, body).  
-3. Wrote a Python script to repeatedly send these requests.  
+3. Wrote a Python script to repeatedly send these OTP requests.  
 4. Implemented random switching and validation for stealth.  
 5. Captured and logged success responses.
 
